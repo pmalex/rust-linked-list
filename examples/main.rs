@@ -6,5 +6,7 @@ fn main() {
     list.push_front(13);
     list.push_front(-7);
 
+    list.pop_front();
+
     println!("{:?}", list);
 }
